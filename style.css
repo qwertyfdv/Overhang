@@ -1,0 +1,49 @@
+*{
+
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 50px;
+
+}
+
+.ipbox{
+    margin-top: 200px;
+    display: flex ;
+    justify-content: space-evenly;
+    
+}
+
+.opbox{
+
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    /* margin-right: 420px; */
+    
+}
+
+
+#x ,#y,#z,#ox,#oy,#oz,#o,#sb{
+
+    background-color: aliceblue;
+    border: solid;
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#sb{
+
+    background-color: rgb(62, 156, 62);
+    font-weight: 500;
+    border: solid;
+
+    font-weight: 900;
+    
+}
