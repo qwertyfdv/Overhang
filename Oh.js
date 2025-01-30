@@ -9,20 +9,45 @@ let zz = parseFloat(document.getElementById("z").value);
 let zo = parseFloat(document.getElementById("o").value);
 
 
+let zxm = Math.abs(zx);
+let zzm = Math.abs(zz);
+
 
 let zc = 0.574 * zo ;
-let zcc = zc + zx ;
+let zcv = zc + zxm ;
+
+if (zx < 0 ){
+   zcc = zcv * -1
+}
+else{
+    zcc = zcv
+}
+
+
+
 
 let zvv = zy ;
 
 let zb = 0.819 * zo ; 
-let zbb = zb + zz
+let zbv = zb + zzm
+
+
+if (zz < 0 ){
+    zbb = zbv * -1
+ }
+ else{
+     zbb = zbv
+ }
+
+
 
 
 
 document.getElementById("ox").value = + zcc ;
 document.getElementById("oy").value = + zvv ;
 document.getElementById("oz").value = + zbb ;
+
+
 
 }
 
