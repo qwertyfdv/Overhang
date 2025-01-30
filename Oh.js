@@ -43,9 +43,9 @@ if (zz < 0 ){
 
 
 
-document.getElementById("ox").value = + zcc ;
-document.getElementById("oy").value = + zvv ;
-document.getElementById("oz").value = + zbb ;
+document.getElementById("ox").value.toFixed(3) = + zcc ;
+document.getElementById("oy").value.toFixed(3) = + zvv ;
+document.getElementById("oz").value.toFixed(3) = + zbb ;
 
 
 
