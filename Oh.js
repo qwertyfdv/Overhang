@@ -17,10 +17,11 @@ let zc = 0.574 * zo ;
 let zcv = zc + zxm ;
 
 if (zx < 0 ){
-   zcc = zcv * -1
+   zccc = zcv * -1 ;
+   zcc = zccc.toFixed(3) ;
 }
 else{
-    zcc = zcv
+    zcc = zcv.toFixed(3)
 }
 
 
@@ -33,10 +34,11 @@ let zbv = zb + zzm
 
 
 if (zz < 0 ){
-    zbb = zbv * -1
+    zbbb = zbv * -1 ;
+    zbb = zbbb.toFixed(3) ;
  }
  else{
-     zbb = zbv
+     zbb = zbv.toFixed(3) ;
  }
 
 
