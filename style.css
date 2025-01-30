@@ -1,5 +1,10 @@
-*{
+html,body{
+    height: 100%;
+}
 
+*{
+    margin: 0;
+    padding: 0;
     background-color: black;
 }
 
@@ -36,6 +41,7 @@ h1{
     width: 220px;
     border-radius: 10px;
     text-align: center;
+    font-weight: 800;
 }
 
 #sb{
@@ -43,7 +49,89 @@ h1{
     background-color: rgb(62, 156, 62);
     font-weight: 500;
     border: solid;
-
     font-weight: 900;
+    
+}
+
+#ssb{
+
+    background-color: rgb(62, 156, 62);
+    font-weight: 500;
+    border: solid;
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+@media only screen and (min-width:450px) {
+
+    #ssb{
+
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:450px) {
+   .ipbox{
+        flex-wrap: wrap;
+        margin-top: 70px;
+        margin-right: 110px;
+    }
+
+    .opbox{
+
+        flex-wrap: wrap;
+        margin-right: 110px;
+
+    }
+
+
+    .sc{
+
+       margin-left: 160px;
+       margin-top: 20px;
+             
+    }
+
+    #ssb{
+
+        height: 40px;
+        width: 100px;
+        border: solid;
+        border-radius: 8px;
+
+    }
+    h1{
+        margin-top: 30px;
+    }
+
+    #y{
+        margin-top: 10px;
+    }
+
+    #z{
+        margin-top: 10px;
+    }
+
+    #o{
+        margin-top: 10px;
+    }
+
+    
+    #oy{
+        margin-top: 10px;
+    }
+    #oz{
+        margin-top: 10px;
+    }
+    #sb{
+        display: none;
+        margin-top: 10px;
+    }
+    
     
 }
